@@ -42,7 +42,7 @@ $mensagem->__set('para', $_POST['para']);
 $mensagem->__set('assunto', $_POST['assunto']);
 $mensagem->__set('mensagem', $_POST['mensagem']);
 
-// se a mesnagem não for válida entra no if abaixo, enterrompendo o script
+// se a mensagem não for válida entra no if abaixo, enterrompendo o script
 if (!$mensagem->mensagemValida()) {
     echo 'mensagem não é válida';
     //die(); //esta function nativa do PHP mata o processamento do script
